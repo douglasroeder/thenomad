@@ -1,0 +1,3 @@
+site/*
+.serverless/*
+state.json
