@@ -1,0 +1,4 @@
+baseURL = "https://thenomad.xyz/"
+languageCode = "en-us"
+title = "the Nomad"
+theme = "minos"
