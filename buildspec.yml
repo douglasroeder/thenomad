@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+    install:
+        commands:
+            - pip install Pygments
+            - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
+            - dpkg -i hugo_0.52_Linux-64bit.deb
+    build:
+        commands:
+            - hugo -D
+            - echo "S3 Upload Beginning"
+            - aws s3 sync public/ s3://thenomad.xyz/ --region ap-southeast-2 --delete
+            - echo "S3 Upload Complete"
