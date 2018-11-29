@@ -1,4 +1,4 @@
-baseURL = "https://thenomad.xyz/"
+baseURL = "https://blog.thenomad.xyz/"
 languageCode = "en-us"
 title = "the Nomad"
 theme = "minos"
