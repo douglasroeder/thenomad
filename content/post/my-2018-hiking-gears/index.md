@@ -1,6 +1,7 @@
 ---
 title: "My 2018 Hiking Gears"
 date: 2018-11-28T11:08:47+11:00
+tags: ["camping", "hiking", "gears"]
 draft: true
 ---
 
