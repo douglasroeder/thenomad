@@ -1,3 +1,4 @@
 site/*
 .serverless/*
 state.json
+*.DS_Store
